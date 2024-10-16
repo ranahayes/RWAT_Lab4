@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 4 Data Fetching</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Lab 4: Fetch Data with Different Approaches</h1>
+
+    <button onclick="fetchSync()">Synchronous XMLHttpRequest</button>
+    <button onclick="fetchAsync()">Asynchronous XMLHttpRequest</button>
+    <button onclick="fetchWithPromises()">Fetch API with Promises</button>
+
+    <h2>Fetched Data</h2>
+    <table id="data-table" border="1">
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>ID</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <footer>
+        <p>Access the page live: <a href="https://ranahayes.github.io/RWAT/lab4/index.html">GitHub Pages Version</a></p>
+    </footer>
+</body>
+</html>
